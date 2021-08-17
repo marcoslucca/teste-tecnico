@@ -2,7 +2,7 @@ package com.woke;
 
 public class Service {
 
-    Repositorio repositorio = new Repositorio();
+    private Repositorio repositorio = new Repositorio();
 
     public void vender(
             Produto produto,
